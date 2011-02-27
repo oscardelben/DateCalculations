@@ -6,8 +6,13 @@
 //  Copyright 2011 DibiStore. All rights reserved.
 //
 
-#import "NSDateCalculationsTest.h"
+#import <SenTestingKit/SenTestingKit.h>
+#import <UIKit/UIKit.h>
 #import "NSDate+Calculations.h"
+
+
+@interface NSDateCalculationsTest : SenTestCase
+@end
 
 @implementation NSDateCalculationsTest
 
@@ -49,7 +54,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] beginningOfDay]];
 	NSString *expected = @"2011 06 23 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 
@@ -58,7 +63,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] beginningOfMonth]];
 	NSString *expected = @"2011 06 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfQuarter1
@@ -67,7 +72,7 @@
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 01 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfQuarter2
@@ -76,7 +81,7 @@
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 04 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfQuarter3
@@ -85,7 +90,7 @@
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 07 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfQuarter4
@@ -94,7 +99,7 @@
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 10 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfWeek
@@ -102,7 +107,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] beginningOfWeek]];
 	NSString *expected = @"2011 06 19 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testBeginningOfYear
@@ -110,7 +115,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] beginningOfYear]];
 	NSString *expected = @"2011 01 01 - 00:00:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 #pragma mark -
@@ -121,7 +126,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] endOfDay]];
 	NSString *expected = @"2011 06 23 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfMonth
@@ -129,7 +134,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] endOfMonth]];
 	NSString *expected = @"2011 06 30 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfQuarter1
@@ -138,7 +143,7 @@
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 03 31 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfQuarter2
@@ -147,7 +152,7 @@
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 06 30 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfQuarter3
@@ -156,7 +161,7 @@
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 09 30 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfQuarter4
@@ -165,7 +170,7 @@
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 12 31 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfWeek
@@ -173,7 +178,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] endOfWeek]];
 	NSString *expected = @"2011 06 25 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testEndOfYear
@@ -181,7 +186,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] endOfYear]];
 	NSString *expected = @"2011 12 31 - 23:59:59";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 #pragma mark Tests Days in month
@@ -192,7 +197,7 @@
 	int result = [date daysInMonth];
 	int expected = 31;
 	
-	STAssertEquals(result, expected, @"");
+	STAssertEquals(result, expected, nil);
 }
 
 - (void)testDaysInMonth2
@@ -201,7 +206,7 @@
 	int result = [date daysInMonth];
 	int expected = 30;
 	
-	STAssertEquals(result, expected, @"");
+	STAssertEquals(result, expected, nil);
 }
 
 - (void)testMonthsSince
@@ -209,7 +214,7 @@
 	NSString *result = [self formattedDate:[[self defaultDate] monthsSince:4]];
 	NSString *expected = @"2011 10 23 - 10:15:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 - (void)testNextMonth
@@ -218,7 +223,7 @@
 	NSString *result = [self formattedDate:[date nextMonth]];
 	NSString *expected = @"2011 09 30 - 13:12:00";
 	
-	STAssertEqualObjects(result, expected, @"");
+	STAssertEqualObjects(result, expected, nil);
 }
 
 

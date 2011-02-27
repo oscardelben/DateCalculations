@@ -37,7 +37,6 @@
 		5507B723131A7DD8001918DB /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5507B724131A7DD8001918DB /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		5507B793131A7E9D001918DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5507B7AB131A7EDE001918DB /* NSDateCalculationsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateCalculationsTest.h; sourceTree = "<group>"; };
 		5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateCalculationsTest.m; sourceTree = "<group>"; };
 		5507B7B2131A7F72001918DB /* NSDate+Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculations.h"; sourceTree = "<group>"; };
 		5507B7B3131A7F72001918DB /* NSDate+Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculations.m"; sourceTree = "<group>"; };
@@ -134,7 +133,6 @@
 		5507B7AA131A7EB1001918DB /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				5507B7AB131A7EDE001918DB /* NSDateCalculationsTest.h */,
 				5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */,
 			);
 			path = Test;
