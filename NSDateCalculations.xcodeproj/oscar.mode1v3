@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5507BA89131AACFA001918DB</string>
+										<string>554D611E131AD9890012E38A</string>
 										<key>history</key>
 										<array>
 											<string>5507B7BA131A8039001918DB</string>
@@ -337,10 +337,10 @@
 											<string>5507B83A131A8EA4001918DB</string>
 											<string>5507B83C131A8EA4001918DB</string>
 											<string>5507B844131A8EE3001918DB</string>
-											<string>5507B932131AAB37001918DB</string>
-											<string>5507BA87131AACFA001918DB</string>
-											<string>5507BA88131AACFA001918DB</string>
-											<string>5507B931131AAB37001918DB</string>
+											<string>554D6103131AD9330012E38A</string>
+											<string>554D6104131AD9330012E38A</string>
+											<string>554D6105131AD9330012E38A</string>
+											<string>554D6107131AD9330012E38A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,14 +352,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {938, 672}}</string>
+								<string>{{0, 0}, {938, 663}}</string>
 								<key>RubberWindowFrame</key>
 								<string>590 179 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>672pt</string>
+							<string>663pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -372,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 677}, {938, 181}}</string>
+								<string>{{0, 668}, {938, 190}}</string>
 								<key>RubberWindowFrame</key>
 								<string>590 179 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>190pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -398,9 +398,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5507B7C1131A8039001918DB</string>
+				<string>554D611F131AD9890012E38A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5507B7C2131A8039001918DB</string>
+				<string>554D6120131AD9890012E38A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -538,9 +538,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5507B865131A910F001918DB</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5507B7C4131A8039001918DB</string>
 		<string>/Users/oscar/projects/cocoa/projects/NSDateCalculations/NSDateCalculations.xcodeproj</string>
 	</array>
@@ -566,7 +563,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSDateCalculationsTest.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -583,8 +580,6 @@
 							<string>396pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -624,7 +619,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5507B7C4131A8039001918DB</string>
-				<string>5507B7C5131A8039001918DB</string>
+				<string>554D6121131AD9890012E38A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

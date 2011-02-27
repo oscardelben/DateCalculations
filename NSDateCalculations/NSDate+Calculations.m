@@ -207,7 +207,7 @@
 
 - (NSDate *)monthsSince:(int)months
 {
-	NSDateComponents *comps = [[NSDateComponents alloc] init];
+	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
 	[comps setMonth:months];
 	
 	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
