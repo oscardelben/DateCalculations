@@ -274,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>4</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSDateCalculationsTest.m</string>
+								<string>NSDate+Calculations.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NSDateCalculationsTest.m</string>
+										<string>NSDate+Calculations.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5507B934131AAB37001918DB</string>
+										<string>5507BA89131AACFA001918DB</string>
 										<key>history</key>
 										<array>
 											<string>5507B7BA131A8039001918DB</string>
@@ -337,10 +337,10 @@
 											<string>5507B83A131A8EA4001918DB</string>
 											<string>5507B83C131A8EA4001918DB</string>
 											<string>5507B844131A8EE3001918DB</string>
-											<string>5507B930131AAB37001918DB</string>
-											<string>5507B931131AAB37001918DB</string>
 											<string>5507B932131AAB37001918DB</string>
-											<string>5507B933131AAB37001918DB</string>
+											<string>5507BA87131AACFA001918DB</string>
+											<string>5507BA88131AACFA001918DB</string>
+											<string>5507B931131AAB37001918DB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

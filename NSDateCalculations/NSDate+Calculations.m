@@ -194,7 +194,7 @@
 }
 
 #pragma mark -
-#pragma mark Days in month
+#pragma mark Other Calculations
 
 - (int)daysInMonth
 {
@@ -203,6 +203,19 @@
 										 inUnit:NSMonthCalendarUnit
 										forDate:self];
 	return days.length;
+}
+
+- (NSDate *)monthsSince:(int)months
+{
+	NSDateComponents *comps = [[NSDateComponents alloc] init];
+	[comps setMonth:months];
+	
+	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
+}
+
+- (NSDate *)nextMonth
+{
+	return [self monthsSince:1];
 }
 
 @end

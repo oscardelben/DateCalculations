@@ -204,4 +204,22 @@
 	STAssertEquals(result, expected, @"");
 }
 
+- (void)testMonthsSince
+{
+	NSString *result = [self formattedDate:[[self defaultDate] monthsSince:4]];
+	NSString *expected = @"2011 10 23 - 10:15:00";
+	
+	STAssertEqualObjects(result, expected, @"");
+}
+
+- (void)testNextMonth
+{
+	NSDate *date = [self createDate:2011 month:8 day:31 hour:13 minute:12];
+	NSString *result = [self formattedDate:[date nextMonth]];
+	NSString *expected = @"2011 09 30 - 13:12:00";
+	
+	STAssertEqualObjects(result, expected, @"");
+}
+
+
 @end

@@ -24,5 +24,7 @@
 - (NSDate *)endOfYear;
 
 - (int)daysInMonth;
+- (NSDate *)monthsSince:(int)months;
+- (NSDate *)nextMonth;
 
 @end

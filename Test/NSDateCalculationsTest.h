@@ -42,5 +42,7 @@
 - (void)testDaysInMonth1;
 - (void)testDaysInMonth2;
 
+- (void)testMonthsSince;
+- (void)testNextMonth;
 
 @end
