@@ -19,7 +19,7 @@
 #pragma mark -
 #pragma mark Helpers
 
-- (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute
+- (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
 {
 	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
 	[comps setYear:year];
@@ -27,6 +27,7 @@
 	[comps setDay:day];
 	[comps setHour:hour];
 	[comps setMinute:minute];
+	[comps setSecond:second];
 	
 	return [[NSCalendar currentCalendar] dateFromComponents:comps];
 }
@@ -34,7 +35,7 @@
 // 2011 06 23 - 10:15
 - (NSDate *)defaultDate
 {
-	return [self createDate:2011 month:6 day:23 hour:10 minute:15];
+	return [self createDate:2011 month:6 day:23 hour:10 minute:15 second:0];
 }
 
 - (NSString *)formattedDate:(NSDate *)date
@@ -68,7 +69,7 @@
 
 - (void)testBeginningOfQuarter1
 {
-	NSDate *date = [self createDate:2011 month:2 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:2 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 01 01 - 00:00:00";
 	
@@ -77,7 +78,7 @@
 
 - (void)testBeginningOfQuarter2
 {
-	NSDate *date = [self createDate:2011 month:5 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:5 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 04 01 - 00:00:00";
 	
@@ -86,7 +87,7 @@
 
 - (void)testBeginningOfQuarter3
 {
-	NSDate *date = [self createDate:2011 month:9 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:9 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 07 01 - 00:00:00";
 	
@@ -95,7 +96,7 @@
 
 - (void)testBeginningOfQuarter4
 {
-	NSDate *date = [self createDate:2011 month:12 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:12 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date beginningOfQuarter]];
 	NSString *expected = @"2011 10 01 - 00:00:00";
 	
@@ -139,7 +140,7 @@
 
 - (void)testEndOfQuarter1
 {
-	NSDate *date = [self createDate:2011 month:2 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:2 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 03 31 - 23:59:59";
 	
@@ -148,7 +149,7 @@
 
 - (void)testEndOfQuarter2
 {
-	NSDate *date = [self createDate:2011 month:5 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:5 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 06 30 - 23:59:59";
 	
@@ -157,7 +158,7 @@
 
 - (void)testEndOfQuarter3
 {
-	NSDate *date = [self createDate:2011 month:9 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:9 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 09 30 - 23:59:59";
 	
@@ -166,7 +167,7 @@
 
 - (void)testEndOfQuarter4
 {
-	NSDate *date = [self createDate:2011 month:12 day:14 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:12 day:14 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date endOfQuarter]];
 	NSString *expected = @"2011 12 31 - 23:59:59";
 	
@@ -191,20 +192,29 @@
 
 #pragma mark Tests Days in month
 
-- (void)testDaysInMonth1
+- (void)testAdvance
 {
-	NSDate *date = [self createDate:2011 month:8 day:14 hour:13 minute:12];
-	int result = [date daysInMonth];
-	int expected = 31;
+	NSString *result = [self formattedDate:[[self defaultDate] 
+											advance:0 months:0 weeks:2 days:1 hours:3 minutes:10 seconds:45]];
+	NSString *expected = @"2011 07 08 - 13:25:45";
 	
-	STAssertEquals(result, expected, nil);
+	STAssertEqualObjects(result, expected, nil);
 }
 
-- (void)testDaysInMonth2
+- (void)testAgo
 {
-	NSDate *date = [self createDate:2011 month:6 day:14 hour:13 minute:12];
+	NSString *result = [self formattedDate:[[self defaultDate] 
+											ago:1 months:1 weeks:0 days:1 hours:2 minutes:10 seconds:0]];
+	NSString *expected = @"2010 05 22 - 08:05:00";
+	
+	STAssertEqualObjects(result, expected, nil);
+}
+
+- (void)testDaysInMonth
+{
+	NSDate *date = [self createDate:2011 month:8 day:14 hour:13 minute:12 second:0];
 	int result = [date daysInMonth];
-	int expected = 30;
+	int expected = 31;
 	
 	STAssertEquals(result, expected, nil);
 }
@@ -219,7 +229,7 @@
 
 - (void)testNextMonth
 {
-	NSDate *date = [self createDate:2011 month:8 day:31 hour:13 minute:12];
+	NSDate *date = [self createDate:2011 month:8 day:31 hour:13 minute:12 second:0];
 	NSString *result = [self formattedDate:[date nextMonth]];
 	NSString *expected = @"2011 09 30 - 13:12:00";
 	

@@ -196,6 +196,36 @@
 #pragma mark -
 #pragma mark Other Calculations
 
+- (NSDate *)advance:(int)years months:(int)months weeks:(int)weeks days:(int)days 
+			  hours:(int)hours minutes:(int)minutes seconds:(int)seconds
+{
+	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	[comps setYear:years];
+	[comps setMonth:months];
+	[comps setWeek:weeks];
+	[comps setDay:days];
+	[comps setHour:hours];
+	[comps setMinute:minutes];
+	[comps setSecond:seconds];
+	
+	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
+}
+
+- (NSDate *)ago:(int)years months:(int)months weeks:(int)weeks days:(int)days 
+		  hours:(int)hours minutes:(int)minutes seconds:(int)seconds
+{
+	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	[comps setYear:-years];
+	[comps setMonth:-months];
+	[comps setWeek:-weeks];
+	[comps setDay:-days];
+	[comps setHour:-hours];
+	[comps setMinute:-minutes];
+	[comps setSecond:-seconds];
+	
+	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
+}
+
 - (int)daysInMonth
 {
 	NSCalendar *currentCalendar = [NSCalendar currentCalendar];
@@ -207,10 +237,7 @@
 
 - (NSDate *)monthsSince:(int)months
 {
-	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
-	[comps setMonth:months];
-	
-	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
+	return [self advance:0 months:months weeks:0 days:0 hours:0 minutes:0 seconds:0];
 }
 
 - (NSDate *)nextMonth

@@ -18,6 +18,12 @@ Currently implemented methods:
 - (NSDate *)endOfWeek;
 - (NSDate *)endOfYear;
 
+- (NSDate *)advance:(int)years months:(int)months weeks:(int)weeks days:(int)days 
+			  hours:(int)hours minutes:(int)minutes seconds:(int)seconds;
+
+- (NSDate *)ago:(int)years months:(int)months weeks:(int)weeks days:(int)days 
+			  hours:(int)hours minutes:(int)minutes seconds:(int)seconds;
+
 - (int)daysInMonth;
 - (NSDate *)monthsSince:(int)months;
 - (NSDate *)nextMonth;
