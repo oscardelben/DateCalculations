@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>55060A87131E7F700002B673</string>
+										<string>558EE9C7131E82D400DCE586</string>
 										<key>history</key>
 										<array>
 											<string>5507B7BA131A8039001918DB</string>
@@ -337,9 +337,9 @@
 											<string>5507B83A131A8EA4001918DB</string>
 											<string>5507B83C131A8EA4001918DB</string>
 											<string>5507B844131A8EE3001918DB</string>
-											<string>55060A84131E7F700002B673</string>
-											<string>55060A85131E7F700002B673</string>
-											<string>55060A86131E7F700002B673</string>
+											<string>558EE9C4131E82D400DCE586</string>
+											<string>558EE9C5131E82D400DCE586</string>
+											<string>558EE9C6131E82D400DCE586</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {938, 648}}</string>
+								<string>{{0, 0}, {938, 643}}</string>
 								<key>RubberWindowFrame</key>
 								<string>706 127 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>648pt</string>
+							<string>643pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -371,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 653}, {938, 205}}</string>
+								<string>{{0, 648}, {938, 210}}</string>
 								<key>RubberWindowFrame</key>
 								<string>706 127 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>205pt</string>
+							<string>210pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -397,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>55060A88131E7F700002B673</string>
+				<string>558EE9C8131E82D400DCE586</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>55060A89131E7F700002B673</string>
+				<string>558EE9C9131E82D400DCE586</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,7 +537,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5507B7C4131A8039001918DB</string>
 		<string>/Users/oscar/projects/cocoa/projects/NSDateCalculations/NSDateCalculations.xcodeproj</string>
 	</array>
@@ -563,7 +562,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSDate+Calculations.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -580,8 +579,6 @@
 							<string>396pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -621,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5507B7C4131A8039001918DB</string>
-				<string>55060A34131E7D200002B673</string>
+				<string>558EE9CA131E82D400DCE586</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
