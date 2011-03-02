@@ -29,6 +29,8 @@
 - (NSDate *)ago:(int)years months:(int)months weeks:(int)weeks days:(int)days 
 			  hours:(int)hours minutes:(int)minutes seconds:(int)seconds;
 
+- (NSDate *)change:(NSDictionary *)changes;
+
 - (int)daysInMonth;
 - (NSDate *)monthsSince:(int)months;
 - (NSDate *)nextMonth;

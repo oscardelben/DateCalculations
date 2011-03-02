@@ -226,6 +226,31 @@
 	return [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:self options:0];
 }
 
+- (NSDate *)change:(NSDictionary *)changes
+{
+	NSCalendar *currentCalendar = [NSCalendar currentCalendar];
+	
+	int calendarComponents = (NSEraCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit |
+							  NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit |
+							  NSWeekCalendarUnit | NSWeekdayCalendarUnit |  NSWeekdayOrdinalCalendarUnit |
+							  NSQuarterCalendarUnit);
+	
+	NSDateComponents *comps = [currentCalendar components:calendarComponents fromDate:self];
+	
+	for (id key in changes) {
+		SEL selector = NSSelectorFromString([NSString stringWithFormat:@"set%@:", [key capitalizedString]]);
+		int value = [[changes valueForKey:key] intValue];
+		
+		NSInvocation *inv = [NSInvocation invocationWithMethodSignature:[comps methodSignatureForSelector:selector]];
+		[inv setSelector:selector];
+		[inv setTarget:comps];
+		[inv setArgument:&value atIndex:2]; //arguments 0 and 1 are self and _cmd respectively, automatically set by NSInvocation
+		[inv invoke];
+	}
+
+	return [currentCalendar dateFromComponents:comps];
+}
+
 - (int)daysInMonth
 {
 	NSCalendar *currentCalendar = [NSCalendar currentCalendar];

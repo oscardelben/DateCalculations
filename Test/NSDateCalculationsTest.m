@@ -32,7 +32,7 @@
 	return [[NSCalendar currentCalendar] dateFromComponents:comps];
 }
 
-// 2011 06 23 - 10:15
+// 2011 06 23 - 10:15:00
 - (NSDate *)defaultDate
 {
 	return [self createDate:2011 month:6 day:23 hour:10 minute:15 second:0];
@@ -206,6 +206,20 @@
 	NSString *result = [self formattedDate:[[self defaultDate] 
 											ago:1 months:1 weeks:0 days:1 hours:2 minutes:10 seconds:0]];
 	NSString *expected = @"2010 05 22 - 08:05:00";
+	
+	STAssertEqualObjects(result, expected, nil);
+}
+
+- (void)testChange
+{
+	NSDictionary *changes = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
+																 [NSNumber numberWithInt:2009], 
+																 [NSNumber numberWithInt:4], 
+																 nil] 
+														forKeys:[NSArray arrayWithObjects:@"year", @"month", nil]];
+	
+	NSString *result = [self formattedDate:[[self defaultDate] change:changes]];
+	NSString *expected = @"2009 04 23 - 10:15:00";
 	
 	STAssertEqualObjects(result, expected, nil);
 }
