@@ -27,12 +27,17 @@ Currently implemented methods:
 - (NSDate *)change:(NSDictionary *)changes;
 
 - (int)daysInMonth;
+
 - (NSDate *)monthsSince:(int)months;
+
 - (NSDate *)nextMonth;
 - (NSDate *)nextWeek;
 - (NSDate *)nextYear;
 
+- (NSDate *)prevMonth;
+- (NSDate *)prevYear;
+
 - (BOOL)future;
-- (BOOL)past;
+- (BOOL)past;;
 
 More documentation coming soon as the project evolves
