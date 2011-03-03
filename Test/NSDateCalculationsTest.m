@@ -250,5 +250,23 @@
 	STAssertEqualObjects(result, expected, nil);
 }
 
+- (void)testFuture1
+{
+	NSDate *date = [self createDate:2001 month:8 day:31 hour:13 minute:12 second:0];
+	BOOL result = [date future];
+	BOOL expected = FALSE;
+	
+	STAssertEquals(result, expected, nil);
+}
+
+- (void)testFuture2
+{
+	NSDate *date = [self createDate:2111 month:8 day:31 hour:13 minute:12 second:0];
+	BOOL result = [date future];
+	BOOL expected = TRUE;
+	
+	STAssertEquals(result, expected, nil);
+}
+
 
 @end

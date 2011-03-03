@@ -270,4 +270,9 @@
 	return [self monthsSince:1];
 }
 
+- (BOOL)future
+{
+	return self == [self laterDate:[NSDate date]];
+}
+
 @end

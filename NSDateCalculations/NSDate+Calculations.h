@@ -35,4 +35,6 @@
 - (NSDate *)monthsSince:(int)months;
 - (NSDate *)nextMonth;
 
+- (BOOL)future;
+
 @end
