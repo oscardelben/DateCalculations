@@ -285,4 +285,9 @@
 	return self == [self laterDate:[NSDate date]];
 }
 
+- (BOOL)past
+{
+	return self == [self earlierDate:[NSDate date]];
+}
+
 @end

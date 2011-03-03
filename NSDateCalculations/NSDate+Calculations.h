@@ -38,5 +38,6 @@
 - (NSDate *)nextYear;
 
 - (BOOL)future;
+- (BOOL)past;
 
 @end
