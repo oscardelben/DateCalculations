@@ -144,23 +144,23 @@
 	};
 	5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {877, 3263}}";
-			sepNavSelRange = "{6040, 0}";
-			sepNavVisRange = "{5066, 1261}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 3523}}";
+			sepNavSelRange = "{7125, 0}";
+			sepNavVisRange = "{6094, 1084}";
 		};
 	};
 	5507B7B2131A7F72001918DB /* NSDate+Calculations.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {877, 606}}";
-			sepNavSelRange = "{923, 0}";
-			sepNavVisRange = "{0, 931}";
+			sepNavSelRange = "{909, 21}";
+			sepNavVisRange = "{0, 954}";
 		};
 	};
 	5507B7B3131A7F72001918DB /* NSDate+Calculations.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {915, 3614}}";
-			sepNavSelRange = "{7559, 0}";
-			sepNavVisRange = "{6068, 1496}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 3666}}";
+			sepNavSelRange = "{7599, 0}";
+			sepNavVisRange = "{6243, 1422}";
 		};
 	};
 	5507B7BA131A8039001918DB /* PBXTextBookmark */ = {

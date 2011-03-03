@@ -250,6 +250,14 @@
 	STAssertEqualObjects(result, expected, nil);
 }
 
+- (void)testNextWeek
+{
+	NSString *result = [self formattedDate:[[self defaultDate ] nextWeek]];
+	NSString *expected = @"2011 06 30 - 10:15:00";
+	
+	STAssertEqualObjects(result, expected, nil);
+}
+
 - (void)testFuture1
 {
 	NSDate *date = [self createDate:2001 month:8 day:31 hour:13 minute:12 second:0];

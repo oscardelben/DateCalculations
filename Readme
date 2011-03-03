@@ -30,6 +30,8 @@ Currently implemented methods:
 - (NSDate *)monthsSince:(int)months;
 - (NSDate *)nextMonth;
 
+- (NSDate *)nextWeek;
+
 - (BOOL)future;
 
 More documentation coming soon as the project evolves

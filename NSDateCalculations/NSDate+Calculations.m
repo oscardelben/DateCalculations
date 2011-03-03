@@ -270,6 +270,11 @@
 	return [self monthsSince:1];
 }
 
+- (NSDate *)nextWeek
+{
+	return [self advance:0 months:0 weeks:1 days:0 hours:0 minutes:0 seconds:0];
+}
+
 - (BOOL)future
 {
 	return self == [self laterDate:[NSDate date]];
