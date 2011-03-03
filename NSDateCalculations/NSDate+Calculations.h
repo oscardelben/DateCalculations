@@ -32,10 +32,14 @@
 - (NSDate *)change:(NSDictionary *)changes;
 
 - (int)daysInMonth;
+
 - (NSDate *)monthsSince:(int)months;
+
 - (NSDate *)nextMonth;
 - (NSDate *)nextWeek;
 - (NSDate *)nextYear;
+
+- (NSDate *)prevMonth;
 
 - (BOOL)future;
 - (BOOL)past;
