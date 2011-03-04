@@ -120,6 +120,10 @@
 			558EEA211321838900DCE586 /* PBXTextBookmark */ = 558EEA211321838900DCE586 /* PBXTextBookmark */;
 			558EEA221321838900DCE586 /* PBXTextBookmark */ = 558EEA221321838900DCE586 /* PBXTextBookmark */;
 			558EEA231321838900DCE586 /* PBXTextBookmark */ = 558EEA231321838900DCE586 /* PBXTextBookmark */;
+			558EEA2A1321840100DCE586 /* PBXTextBookmark */ = 558EEA2A1321840100DCE586 /* PBXTextBookmark */;
+			558EEA2B1321840100DCE586 /* PBXTextBookmark */ = 558EEA2B1321840100DCE586 /* PBXTextBookmark */;
+			558EEA2C1321840100DCE586 /* PBXTextBookmark */ = 558EEA2C1321840100DCE586 /* PBXTextBookmark */;
+			558EEA2D1321840100DCE586 /* PBXTextBookmark */ = 558EEA2D1321840100DCE586 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5507B71B131A7D8C001918DB /* Source Control */;
 		userBuildSettings = {
@@ -172,23 +176,23 @@
 	};
 	5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {877, 4641}}";
-			sepNavSelRange = "{7675, 0}";
-			sepNavVisRange = "{7157, 1146}";
+			sepNavIntBoundsRect = "{{0, 0}, {877, 4654}}";
+			sepNavSelRange = "{6632, 0}";
+			sepNavVisRange = "{5917, 1244}";
 		};
 	};
 	5507B7B2131A7F72001918DB /* NSDate+Calculations.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {877, 689}}";
-			sepNavSelRange = "{1000, 31}";
-			sepNavVisRange = "{29, 1058}";
+			sepNavSelRange = "{920, 0}";
+			sepNavVisRange = "{29, 1079}";
 		};
 	};
 	5507B7B3131A7F72001918DB /* NSDate+Calculations.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {915, 4134}}";
-			sepNavSelRange = "{7809, 0}";
-			sepNavVisRange = "{7315, 806}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 4212}}";
+			sepNavSelRange = "{7474, 0}";
+			sepNavVisRange = "{6714, 1135}";
 		};
 	};
 	5507B7BA131A8039001918DB /* PBXTextBookmark */ = {
@@ -327,7 +331,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 38";
 		rLen = 0;
-		rLoc = 952;
+		rLoc = 987;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 0;
@@ -337,7 +341,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 280";
 		rLen = 0;
-		rLoc = 7663;
+		rLoc = 7784;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 6714;
@@ -347,7 +351,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 256";
 		rLen = 0;
-		rLoc = 6905;
+		rLoc = 7105;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 5917;
@@ -357,7 +361,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 263";
 		rLen = 0;
-		rLoc = 7054;
+		rLoc = 7254;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 5917;
@@ -367,7 +371,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 41";
 		rLen = 0;
-		rLoc = 1085;
+		rLoc = 1120;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -377,7 +381,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 290";
 		rLen = 0;
-		rLoc = 8156;
+		rLoc = 8276;
 		rType = 0;
 		vrLen = 1010;
 		vrLoc = 6829;
@@ -387,7 +391,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 248";
 		rLen = 0;
-		rLoc = 6685;
+		rLoc = 6885;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 5917;
@@ -397,7 +401,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 299";
 		rLen = 0;
-		rLoc = 8671;
+		rLoc = 8871;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 6961;
@@ -407,7 +411,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 42";
 		rLen = 22;
-		rLoc = 955;
+		rLoc = 990;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 0;
@@ -417,7 +421,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 285";
 		rLen = 0;
-		rLoc = 7758;
+		rLoc = 7879;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 6829;
@@ -427,7 +431,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 279";
 		rLen = 0;
-		rLoc = 8165;
+		rLoc = 8365;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 6959;
@@ -437,7 +441,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 272";
 		rLen = 0;
-		rLoc = 7286;
+		rLoc = 7486;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 6527;
@@ -447,7 +451,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 280";
 		rLen = 0;
-		rLoc = 7478;
+		rLoc = 7678;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 6527;
@@ -457,7 +461,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 290";
 		rLen = 0;
-		rLoc = 7799;
+		rLoc = 7920;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 7228;
@@ -467,7 +471,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 43";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1033;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 0;
@@ -476,7 +480,7 @@
 		isa = PBXTextBookmark;
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 14";
-		rLen = 865;
+		rLen = 900;
 		rLoc = 221;
 		rType = 0;
 		vrLen = 1008;
@@ -487,7 +491,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 47";
 		rLen = 14;
-		rLoc = 1087;
+		rLoc = 1122;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 29;
@@ -497,7 +501,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 306";
 		rLen = 0;
-		rLoc = 8261;
+		rLoc = 8381;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 7351;
@@ -507,7 +511,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 280";
 		rLen = 0;
-		rLoc = 7478;
+		rLoc = 7678;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 6527;
@@ -517,7 +521,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 332";
 		rLen = 0;
-		rLoc = 8962;
+		rLoc = 9162;
 		rType = 0;
 		vrLen = 872;
 		vrLoc = 7752;
@@ -527,7 +531,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 45";
 		rLen = 0;
-		rLoc = 1054;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 29;
@@ -537,7 +541,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 295";
 		rLen = 0;
-		rLoc = 8005;
+		rLoc = 8126;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 7315;
@@ -547,7 +551,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 332";
 		rLen = 0;
-		rLoc = 8962;
+		rLoc = 9162;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 7751;
@@ -557,7 +561,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 288";
 		rLen = 0;
-		rLoc = 7876;
+		rLoc = 8076;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 7157;
@@ -567,7 +571,7 @@
 		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
 		name = "NSDateCalculationsTest.m: 288";
 		rLen = 0;
-		rLoc = 7675;
+		rLoc = 7875;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 7157;
@@ -577,7 +581,7 @@
 		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
 		name = "NSDate+Calculations.m: 290";
 		rLen = 0;
-		rLoc = 7809;
+		rLoc = 7930;
 		rType = 0;
 		vrLen = 806;
 		vrLoc = 7315;
@@ -587,7 +591,7 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 44";
 		rLen = 31;
-		rLoc = 1000;
+		rLoc = 1035;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 29;
@@ -597,9 +601,49 @@
 		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
 		name = "NSDate+Calculations.h: 44";
 		rLen = 31;
-		rLoc = 1000;
+		rLoc = 1035;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 29;
+	};
+	558EEA2A1321840100DCE586 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5507B7B3131A7F72001918DB /* NSDate+Calculations.m */;
+		name = "NSDate+Calculations.m: 269";
+		rLen = 0;
+		rLoc = 7474;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 6714;
+	};
+	558EEA2B1321840100DCE586 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5507B7B2131A7F72001918DB /* NSDate+Calculations.h */;
+		name = "NSDate+Calculations.h: 37";
+		rLen = 0;
+		rLoc = 920;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 29;
+	};
+	558EEA2C1321840100DCE586 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
+		name = "NSDateCalculationsTest.m: 247";
+		rLen = 0;
+		rLoc = 6632;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 5917;
+	};
+	558EEA2D1321840100DCE586 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5507B7AC131A7EDE001918DB /* NSDateCalculationsTest.m */;
+		name = "NSDateCalculationsTest.m: 247";
+		rLen = 0;
+		rLoc = 6632;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 5917;
 	};
 }

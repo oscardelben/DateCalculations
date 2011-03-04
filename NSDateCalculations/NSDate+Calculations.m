@@ -265,6 +265,11 @@
 	return [self advance:0 months:months weeks:0 days:0 hours:0 minutes:0 seconds:0];
 }
 
+- (NSDate *)yearsSince:(int)years
+{
+	return [self advance:years months:0 weeks:0 days:0 hours:0 minutes:0 seconds:0];
+}
+
 - (NSDate *)nextMonth
 {
 	return [self monthsSince:1];
@@ -299,7 +304,6 @@
 {
 	return [self advance:0 months:0 weeks:0 days:1 hours:0 minutes:0 seconds:0];
 }
-
 
 - (BOOL)future
 {

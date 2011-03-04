@@ -241,6 +241,14 @@
 	STAssertEqualObjects(result, expected, nil);
 }
 
+- (void)testYearsSince
+{
+	NSString *result = [self formattedDate:[[self defaultDate] yearsSince:4]];
+	NSString *expected = @"2015 06 23 - 10:15:00";
+	
+	STAssertEqualObjects(result, expected, nil);
+}
+
 - (void)testNextMonth
 {
 	NSDate *date = [self createDate:2011 month:8 day:31 hour:13 minute:12 second:0];

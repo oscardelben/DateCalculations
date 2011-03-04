@@ -34,6 +34,7 @@
 - (int)daysInMonth;
 
 - (NSDate *)monthsSince:(int)months;
+- (NSDate *)yearsSince:(int)years;
 
 - (NSDate *)nextMonth;
 - (NSDate *)nextWeek;
