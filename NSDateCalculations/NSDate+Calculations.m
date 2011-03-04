@@ -287,7 +287,12 @@
 
 - (NSDate *)prevYear
 {
-	return [self advance:-1 months:0 weeks:0 days:0 hours:0 minutes:0 seconds:0];
+	return [self yearsAgo:1];
+}
+
+- (NSDate *)yearsAgo:(int)years
+{
+	return [self advance:-years months:0 weeks:0 days:0 hours:0 minutes:0 seconds:0];
 }
 
 - (NSDate *)tomorrow

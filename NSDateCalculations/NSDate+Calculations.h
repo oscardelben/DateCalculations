@@ -41,6 +41,7 @@
 
 - (NSDate *)prevMonth;
 - (NSDate *)prevYear;
+- (NSDate *)yearsAgo:(int)years;
 
 - (NSDate *)tomorrow;
 

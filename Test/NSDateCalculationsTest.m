@@ -282,6 +282,14 @@
 	STAssertEqualObjects(result, expected, nil);
 }
 
+- (void)testYearsAgo
+{
+	NSString *result = [self formattedDate:[[self defaultDate ] yearsAgo:3]];
+	NSString *expected = @"2008 06 23 - 10:15:00";
+	
+	STAssertEqualObjects(result, expected, nil);
+}
+
 - (void)testTomorrow
 {
 	NSString *result = [self formattedDate:[[self defaultDate ] tomorrow]];
