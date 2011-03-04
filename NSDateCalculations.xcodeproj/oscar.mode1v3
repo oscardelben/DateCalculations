@@ -274,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>5</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>594 103 1146 899 0 0 1920 1178 </string>
+						<string>580 57 1146 899 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NSDate+Calculations.h</string>
+								<string>NSDateCalculationsTest.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NSDate+Calculations.h</string>
+										<string>NSDateCalculationsTest.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>558EEA07131FCE1800DCE586</string>
+										<string>558EEA131321829300DCE586</string>
 										<key>history</key>
 										<array>
 											<string>5507B7BA131A8039001918DB</string>
@@ -337,9 +337,9 @@
 											<string>5507B83A131A8EA4001918DB</string>
 											<string>5507B83C131A8EA4001918DB</string>
 											<string>5507B844131A8EE3001918DB</string>
-											<string>558EEA04131FCE1800DCE586</string>
-											<string>558EEA05131FCE1800DCE586</string>
-											<string>558EEA06131FCE1800DCE586</string>
+											<string>558EEA101321829300DCE586</string>
+											<string>558EEA111321829300DCE586</string>
+											<string>558EEA121321829300DCE586</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,7 +353,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {938, 638}}</string>
 								<key>RubberWindowFrame</key>
-								<string>594 103 1146 899 0 0 1920 1178 </string>
+								<string>580 57 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -373,7 +373,7 @@
 								<key>Frame</key>
 								<string>{{0, 643}, {938, 215}}</string>
 								<key>RubberWindowFrame</key>
-								<string>594 103 1146 899 0 0 1920 1178 </string>
+								<string>580 57 1146 899 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,7 +541,7 @@
 		<string>/Users/oscar/projects/cocoa/projects/NSDateCalculations/NSDateCalculations.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>594 103 1146 899 0 0 1920 1178 </string>
+	<string>580 57 1146 899 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

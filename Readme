@@ -38,6 +38,7 @@ Currently implemented methods:
 - (NSDate *)prevYear;
 
 - (BOOL)future;
-- (BOOL)past;;
+- (BOOL)past;
+- (BOOL)today;
 
 More documentation coming soon as the project evolves

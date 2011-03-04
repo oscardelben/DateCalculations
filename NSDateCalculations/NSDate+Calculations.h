@@ -44,5 +44,6 @@
 
 - (BOOL)future;
 - (BOOL)past;
+- (BOOL)today;
 
 @end

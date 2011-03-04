@@ -300,4 +300,10 @@
 	return self == [self earlierDate:[NSDate date]];
 }
 
+- (BOOL)today
+{
+	return self == [self laterDate:[[NSDate date] beginningOfDay]] &&
+		self == [self earlierDate:[[NSDate date] endOfDay]];
+}
+
 @end

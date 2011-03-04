@@ -318,4 +318,22 @@
 	STAssertEquals(result, expected, nil);
 }
 
+- (void)testToday1
+{
+	BOOL result = [[NSDate date] today];
+	BOOL expected = TRUE;
+	
+	STAssertEquals(result, expected, nil);
+}
+
+- (void)testToday2
+{
+	BOOL result = [[[NSDate date] nextWeek] today];
+	BOOL expected = FALSE;
+	
+	STAssertEquals(result, expected, nil);
+}
+
+
+
 @end
