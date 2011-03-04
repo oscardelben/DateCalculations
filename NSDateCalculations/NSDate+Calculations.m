@@ -300,6 +300,11 @@
 	return [self advance:-years months:0 weeks:0 days:0 hours:0 minutes:0 seconds:0];
 }
 
+- (NSDate *)yesterday
+{
+	return [self advance:0 months:0 weeks:0 days:-1 hours:0 minutes:0 seconds:0];
+}
+
 - (NSDate *)tomorrow
 {
 	return [self advance:0 months:0 weeks:0 days:1 hours:0 minutes:0 seconds:0];
