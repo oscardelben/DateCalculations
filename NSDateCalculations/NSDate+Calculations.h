@@ -42,6 +42,8 @@
 - (NSDate *)prevMonth;
 - (NSDate *)prevYear;
 
+- (NSDate *)tomorrow;
+
 - (BOOL)future;
 - (BOOL)past;
 - (BOOL)today;
