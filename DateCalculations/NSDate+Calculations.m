@@ -11,6 +11,20 @@
 
 @implementation NSDate (Calculations)
 
++ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
+{
+	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	[comps setYear:year];
+	[comps setMonth:month];
+	[comps setDay:day];
+	[comps setHour:hour];
+	[comps setMinute:minute];
+	[comps setSecond:second];
+	
+	return [[NSCalendar currentCalendar] dateFromComponents:comps];
+}
+
+
 #pragma mark -
 #pragma mark Beginning of
 

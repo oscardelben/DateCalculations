@@ -6,6 +6,8 @@ To use, simply drop the NSDateCalculations folder inside your project and requir
 
 Currently implemented methods:
 
++ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second;
+
 - (NSDate *)beginningOfDay;
 - (NSDate *)beginningOfMonth;
 - (NSDate *)beginningOfQuarter;
@@ -29,7 +31,7 @@ Currently implemented methods:
 - (int)daysInMonth;
 
 - (NSDate *)monthsSince:(int)months;
-- (NSDate *)yearsSince:(int)months;
+- (NSDate *)yearsSince:(int)years;
 
 - (NSDate *)nextMonth;
 - (NSDate *)nextWeek;
@@ -46,4 +48,5 @@ Currently implemented methods:
 - (BOOL)past;
 - (BOOL)today;
 
-More documentation coming soon as the project evolves
+
+More documentation coming soon as the project evolves.

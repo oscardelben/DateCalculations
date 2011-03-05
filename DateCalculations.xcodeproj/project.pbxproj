@@ -18,6 +18,7 @@
 		5507B794131A7E9D001918DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5507B793131A7E9D001918DB /* SenTestingKit.framework */; };
 		5507B7AD131A7EDE001918DB /* DateCalculationsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507B7AC131A7EDE001918DB /* DateCalculationsTest.m */; };
 		BF57198413222EFC0079C9B9 /* NSDate+Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57198313222EFC0079C9B9 /* NSDate+Calculations.m */; };
+		BF5719DA132234660079C9B9 /* NSDate+Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57198313222EFC0079C9B9 /* NSDate+Calculations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -275,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5507B7AD131A7EDE001918DB /* DateCalculationsTest.m in Sources */,
+				BF5719DA132234660079C9B9 /* NSDate+Calculations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
