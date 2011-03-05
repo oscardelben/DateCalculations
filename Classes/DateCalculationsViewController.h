@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSDateCalculationsViewController : UIViewController {
+@interface DateCalculationsViewController : UIViewController {
 
 }
 

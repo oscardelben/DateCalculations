@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class NSDateCalculationsViewController;
+@class DateCalculationsViewController;
 
-@interface NSDateCalculationsAppDelegate : NSObject <UIApplicationDelegate> {
+@interface DateCalculationsAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    NSDateCalculationsViewController *viewController;
+    DateCalculationsViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet NSDateCalculationsViewController *viewController;
+@property (nonatomic, retain) IBOutlet DateCalculationsViewController *viewController;
 
 @end
 

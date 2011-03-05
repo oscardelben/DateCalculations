@@ -6,9 +6,9 @@
 //  Copyright 2011 DibiStore. All rights reserved.
 //
 
-#import "NSDateCalculationsViewController.h"
+#import "DateCalculationsViewController.h"
 
-@implementation NSDateCalculationsViewController
+@implementation DateCalculationsViewController
 
 
 

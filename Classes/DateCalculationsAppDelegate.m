@@ -6,10 +6,10 @@
 //  Copyright 2011 DibiStore. All rights reserved.
 //
 
-#import "NSDateCalculationsAppDelegate.h"
-#import "NSDateCalculationsViewController.h"
+#import "DateCalculationsAppDelegate.h"
+#import "DateCalculationsViewController.h"
 
-@implementation NSDateCalculationsAppDelegate
+@implementation DateCalculationsAppDelegate
 
 @synthesize window;
 @synthesize viewController;
