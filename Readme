@@ -2,7 +2,7 @@
 
 The goal to this library is to provide an easy interface for doing calculations with dates in Objective C (mac + iphone).
 
-To use, simply drop the NSDateCalculations folder inside your project and require "NSDate+Calculations.h".
+To use, simply drop the DateCalculations subdirectory inside your project and require "NSDate+Calculations.h".
 
 Currently implemented methods:
 
