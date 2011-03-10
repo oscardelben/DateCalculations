@@ -11,7 +11,8 @@
 
 @interface NSDate (Calculations)
 
-+ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second;
++ (NSDate *)dateWithYear:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second;
++ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second; /* DEPRECATED */
 
 - (NSDate *)beginningOfDay;
 - (NSDate *)beginningOfMonth;

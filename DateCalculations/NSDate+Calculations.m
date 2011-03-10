@@ -11,7 +11,7 @@
 
 @implementation NSDate (Calculations)
 
-+ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
++ (NSDate *)dateWithYear:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
 {
 	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
 	[comps setYear:year];
@@ -22,6 +22,12 @@
 	[comps setSecond:second];
 	
 	return [[NSCalendar currentCalendar] dateFromComponents:comps];
+}
+
++ (NSDate *)createDate:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
+{
+	NSLog(@"createDate:month:day:hour:minute:second has been deprecated. Use dateWithYear:month:day:hour:minute:second");
+	return [self dateWithYear:year month:month day:day hour:hour minute:minute second:second];
 }
 
 
