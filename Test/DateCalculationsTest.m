@@ -215,8 +215,8 @@
 - (void)testDaysInMonth
 {
 	NSDate *date = [NSDate dateWithYear:2011 month:8 day:14 hour:13 minute:12 second:0];
-	int result = [date daysInMonth];
-	int expected = 31;
+	NSUInteger result = [date daysInMonth];
+	NSUInteger expected = 31;
 	
 	STAssertEquals(result, expected, nil);
 }
