@@ -34,7 +34,7 @@
 
 - (NSDate *)change:(NSDictionary *)changes;
 
-- (int)daysInMonth;
+- (NSUInteger)daysInMonth;
 
 - (NSDate *)monthsSince:(int)months;
 - (NSDate *)yearsSince:(int)years;
