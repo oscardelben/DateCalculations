@@ -13,7 +13,7 @@
 
 + (NSDate *)dateWithYear:(int)year month:(int)month day:(int)day hour:(int)hour minute:(int)minute second:(int)second
 {
-	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	NSDateComponents *comps = [[NSDateComponents alloc] init];
 	[comps setYear:year];
 	[comps setMonth:month];
 	[comps setDay:day];
@@ -219,7 +219,7 @@
 - (NSDate *)advance:(int)years months:(int)months weeks:(int)weeks days:(int)days 
 			  hours:(int)hours minutes:(int)minutes seconds:(int)seconds
 {
-	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	NSDateComponents *comps = [[NSDateComponents alloc] init];
 	[comps setYear:years];
 	[comps setMonth:months];
 	[comps setWeekOfYear:weeks];
@@ -234,7 +234,7 @@
 - (NSDate *)ago:(int)years months:(int)months weeks:(int)weeks days:(int)days 
 		  hours:(int)hours minutes:(int)minutes seconds:(int)seconds
 {
-	NSDateComponents *comps = [[[NSDateComponents alloc] init] autorelease];
+	NSDateComponents *comps = [[NSDateComponents alloc] init];
 	[comps setYear:-years];
 	[comps setMonth:-months];
 	[comps setWeekOfYear:-weeks];
